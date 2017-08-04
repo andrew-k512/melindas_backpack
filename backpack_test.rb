@@ -53,10 +53,6 @@ class BackpackTest < MiniTest::Test
     end
   end
 
-
-
-
-
   ##### TESTS ABOUT PRINTING THE LIST #####
   def test_that_backpack_prints_correctly
     backpack = build(:backpack, day_of_week: 'monday', weather: 'sunny')
